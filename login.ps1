@@ -1,4 +1,4 @@
-﻿#######################
+#######################
 # Autor: Florian Büchi
 # Version: 1.0
 # Titel: Login
@@ -10,7 +10,7 @@ Clear-Host
 
 # Variablendekleration
 $user = "admin"
-$pw = "*iNfORmAtIk_ist_TOLL*"
+$pw = "Das!stGehe!m"
 
 # Eingabe Benutzer
 $strUser = Read-Host "Bitte geben Sie den Benutzername an"
