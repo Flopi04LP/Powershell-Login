@@ -18,8 +18,8 @@ $strUser = Read-Host "Bitte geben Sie den Benutzername an"
 # Eingabe Passwort
 $strPw = Read-Host "Bitte geben Sie das Passwort an"
 
-# Alternation --> -eq unterscheidet Gross-Kleinschreibung nicht --> besser ist -ceq
-if($user -eq $strUser -and $pw -eq $strPw) {
+# Alternation
+if($user -eq $strUser -and $pw -ceq $strPw) {
     Write-Host "Sie sind im Privatbereich😎"
 } else {
     Write-Host "Error => Falsche Zugangsdaten"
